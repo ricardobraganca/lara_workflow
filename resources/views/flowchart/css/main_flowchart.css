@@ -1,0 +1,86 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #666;
+  }
+
+  #chart_container {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    background: repeating-linear-gradient( 45deg, #eee, #eee 10px, #e5e5e5 10px, #e5e5e5 20px);
+    border: 1px solid black;
+  }
+
+  .flowchart-stage-container {
+    height: 200px;
+    border: 1px solid #BBB;
+    margin-bottom: 10px;
+  }
+
+  #stage {
+    width: 2000px;
+    height: 2000px;
+    background: white;
+  }
+
+  .draggable_operators_label {
+    margin-bottom: 5px;
+  }
+
+  .draggable_operators_ul {
+    position: relative;
+    padding: 0;
+  }
+
+  .draggable_operator {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: grab;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 100%;
+    margin-top: 10px;
+    text-align:center;
+  }
+
+  .button_delete {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+  }
+
+  .jc-bs3-container {
+    width: 30%;
+    margin: 0 auto;
+  }
+
+  .flowchart-operator {
+    white-space: pre-wrap;
+    width:300px;
+    border: 1px solid;
+    box-shadow: 5px 5px 10px;
+  }
+
+  .flowchart-operator:hover {
+    border-color:blue;
+  }
+
+  .flowchart-operator:focus{
+      background-color: blue;
+  }
+
+  .flowchart-operator-connector-arrow {
+    border-left: 10px solid rgb(99, 178, 185);
+  }
+
+  .btn-task-crud{
+      width: 50% !important;
+  }
